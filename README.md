@@ -1041,7 +1041,7 @@ A pool of Amazon EC2 instances running the needed image processing software does
 * Billed at 65KB "Chunks" (based on old message sizes)
 
 ###  24.3. <a name='SQSPricing'></a>SQS Pricing
-* Firt 1 million Amazon SQS Requets per month are free
+* First 1 million Amazon SQS Requets per month are free
 * $0.50 per 1 million Amazon SQS Requests per month thereafter ($0.00000050 per SQS Request)
 * A single request can have from  to 10 messages, up to a maximum total payload of 256KB.
 * Each 64KB 'chunk' of payload is billed as 1 request. For example, a single API call with a 256KB payload will be billed as four requests.
